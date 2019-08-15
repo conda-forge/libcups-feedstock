@@ -1,5 +1,5 @@
 {% set name = "libcups" %}
-{% set version = "2.2.11" %}
+{% set version = "2.2.12" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/apple/cups/releases/download/v{{ version }}/cups-{{ version }}-source.tar.gz
-  sha256: f58010813fd6903f690cdb0c0b91e4d1bc9e5b9570c28734229ba3ed2908b76c
+  sha256: 0f61ab449e4748a24c6ab355b481ff7691247a140d327b2b7526fce34b7f9aa8
 
 build:
   number: 0
