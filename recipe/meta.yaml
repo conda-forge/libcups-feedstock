@@ -10,7 +10,7 @@ source:
   sha256: 0f61ab449e4748a24c6ab355b481ff7691247a140d327b2b7526fce34b7f9aa8
 
 build:
-  number: 1
+  number: 2
   skip: True   # [not linux]
 
 requirements:
@@ -46,3 +46,4 @@ about:
 extra:
   recipe-maintainers:
     - isuruf
+    - hmaarrfk
