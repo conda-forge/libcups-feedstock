@@ -1,5 +1,5 @@
 {% set name = "libcups" %}
-{% set version = "2.2.12" %}
+{% set version = "2.3.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://github.com/apple/cups/releases/download/v{{ version }}/cups-{{ version }}-source.tar.gz
-  sha256: 0f61ab449e4748a24c6ab355b481ff7691247a140d327b2b7526fce34b7f9aa8
+  sha256: 261fd948bce8647b6d5cb2a1784f0c24cc52b5c4e827b71d726020bcc502f3ee
 
 build:
-  number: 2
-  skip: True   # [not linux]
+  number: 0
+  skip: true  # [not linux]
 
 requirements:
   build:
@@ -32,10 +32,10 @@ test:
 
 about:
   home: https://www.cups.org/
-  license: LGPL-2.0-or-later
-  license_family: LGPL
-  license_file: LICENSE.txt
-  summary: 'CUPS is the standards-based, open source printing system'
+  license:  Apache-2.0
+  license_family: Apache
+  license_file: LICENSE
+  summary: CUPS is the standards-based, open source printing system
   description: |
     CUPS is the standards-based, open source printing system developed by
     Apple Inc. for macOS® and other UNIX®-like operating systems. CUPS uses the Internet 
