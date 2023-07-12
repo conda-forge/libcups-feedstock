@@ -10,7 +10,7 @@ source:
   sha256: 261fd948bce8647b6d5cb2a1784f0c24cc52b5c4e827b71d726020bcc502f3ee
 
 build:
-  number: 3
+  number: 4
   skip: true  # [not linux]
   run_exports:
     - {{ pin_subpackage('libcups', max_pin='x.x') }}
