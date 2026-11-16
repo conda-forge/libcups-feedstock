@@ -3,18 +3,18 @@ About libcups-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/libcups-feedstock/blob/main/LICENSE.txt)
 
-Home: https://www.cups.org/
+Home: https://openprinting.github.io/cups/
 
 Package license: Apache-2.0
 
 Summary: CUPS is the standards-based, open source printing system
 
-Development: https://github.com/apple/cups
+Development: https://github.com/OpenPrinting/cups
 
-Documentation: https://www.cups.org/documentation.html
+Documentation: https://openprinting.github.io/cups/#documentation
 
-CUPS is the standards-based, open source printing system developed by
-Apple Inc. for macOS® and other UNIX®-like operating systems. CUPS uses the Internet
+CUPS is the standards-based, open source printing system maintained by
+OpenPrinting for Linux and other UNIX-like operating systems. CUPS uses the Internet
 Printing Protocol (IPP) to support printing to local and network printers.
 
 
